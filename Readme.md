@@ -1,4 +1,4 @@
-# emacs two-window mode for diglossa & diglossa.org
+# emacs two-window mode for diglossa.org
 
 stuff I use in emacs while hacking texts for diglossa.org
 
