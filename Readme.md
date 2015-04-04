@@ -35,9 +35,9 @@ and main method:
 
 ````bash
 C-c c - compare number of sentences in parallell paragraphs
+          if equal, go to the next paragraph
 ````
 
-if equal, go to the next paragraph
 
 note, this shortcut without second Ctrl. So, create temporary macro F3, C-c c, F4
 
