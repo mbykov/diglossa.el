@@ -29,7 +29,7 @@ C-c C-e - both windows to end (End)
 C-c C-l - other window same position (Line)
 ````
 
-there is useful sintactic sugar for the last shortcut: shift-left, shift-right. In addition it recenters both texts.
+there is useful sintactic sugar for the last shortcut: ````shift-left, shift-right````. In addition it recenters both texts.
 
 and main method:
 
