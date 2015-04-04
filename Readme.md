@@ -15,7 +15,7 @@ in your .emacs file:
 
 ## how to use it
 
-open two parallell texts in emacs, with Ctrl-x 3 or M-x split-window-horizontally
+open two parallel texts in emacs, with Ctrl-x 3 or M-x split-window-horizontally
 
 edit them with these shortcuts:
 
@@ -34,7 +34,7 @@ there is useful sintactic sugar for the last shortcut: ````shift-left, shift-rig
 and main method:
 
 ````bash
-C-c c - compare number of sentences in parallell paragraphs
+C-c c - compare number of sentences in parallel paragraphs
           if equal, go to the next paragraph
 ````
 
