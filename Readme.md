@@ -1,6 +1,6 @@
-# two-window mode for diglossa & diglossa.org
+# emacs two-window mode for diglossa & diglossa.org
 
-stuff I use in emacs while hacking diglossa
+stuff I use in emacs while hacking texts for diglossa.org
 
 ## Installation
 
@@ -23,15 +23,15 @@ edit them with these shortcuts:
 C-c C-t - both windows toggle (Toggle, Truncate)
 C-c C-p - both windows scroll-down (Previous)
 C-c C-n - both windows scroll-up (Next)
-C-c C-c - both windows scroll some (20) lines up
+C-c C-x - both windows scroll some (20) lines up
 C-c C-h - both windows  to home (Home)
 C-c C-e - both windows to end (End)
 C-c C-l - other window same position (Line)
 ````
 
-there are useful sintactic sugar for the last shortcut: shift-left, shift-right. In addition it recenters both texts.
+there is useful sintactic sugar for the last shortcut: shift-left, shift-right. In addition it recenters both texts.
 
-and main:
+and main method:
 
 ````bash
 C-c c - compare number of sentences in parallell paragraph, if equal, go to the next paragraph
@@ -39,7 +39,7 @@ C-c c - compare number of sentences in parallell paragraph, if equal, go to the 
 
 note, this shortcut without second Ctrl. So, create temporary macro F3, C-c c, F4
 
-and press F4 - both text will run up to unequal paragraphs. Fix problem, and press F4 again
+press F4 - both text will run up to unequal paragraphs. Fix problem, and press F4 again
 
 
 ## License

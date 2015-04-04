@@ -129,7 +129,7 @@
   (local-set-key (kbd "C-c C-t") 'dg-both-toggle)
   (local-set-key (kbd "C-c C-p") 'dg-both-scroll-down)
   (local-set-key (kbd "C-c C-n") 'dg-both-scroll-up)
-  (local-set-key (kbd "C-c C-c") 'dg-both-up-some)
+  (local-set-key (kbd "C-c C-x") 'dg-both-up-some)
   (local-set-key (kbd "C-c C-h") 'dg-both-home)
   (local-set-key (kbd "C-c C-e") 'dg-both-end)
   (local-set-key (kbd "C-c C-l") 'dg-other-buffer-same-pos)
