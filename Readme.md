@@ -4,12 +4,12 @@ stuff I use in emacs while hacking texts for diglossa.org
 
 ## Installation
 
-clone diglossa.el somewhere
+clone diglossa.el somewhere - path-to-diglossa.el-dir
 
 in your .emacs file:
 
 ````bash
-(add-to-list 'load-path "~/.emacs.d/path-to-diglossa-dir")
+(add-to-list 'load-path "~/.emacs.d/path-to-diglossa.el-dir")
 (load "diglossa")
 ````
 
@@ -34,12 +34,14 @@ there is useful sintactic sugar for the last shortcut: shift-left, shift-right. 
 and main method:
 
 ````bash
-C-c c - compare number of sentences in parallell paragraph, if equal, go to the next paragraph
+C-c c - compare number of sentences in parallell paragraphs
 ````
+
+if equal, go to the next paragraph
 
 note, this shortcut without second Ctrl. So, create temporary macro F3, C-c c, F4
 
-press F4 - both text will run up to unequal paragraphs. Fix problem, and press F4 again
+press F4 - both texts will run up to unequal paragraphs. Fix problem, and press F4 again
 
 
 ## License
